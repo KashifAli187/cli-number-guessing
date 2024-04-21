@@ -4,7 +4,7 @@ import inquirer from "inquirer";
 // 2) User input for guessing  number
 // 3) compare user input with compter generated number and show result
 const randomNumber = Math.floor(Math.random() * 6 +1);
-console.log(randomNumber);
+console.log("Welcome to number Guessing Game");
 const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
